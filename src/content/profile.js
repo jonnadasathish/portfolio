@@ -11,11 +11,11 @@ export const profile = {
 
   // Put a square photo in /public (e.g. 'satish.jpg', at least 600×600) and set its path here.
   // While empty, the About section shows the initials instead.
-  photo: '',
+  photo: '/photo.jpeg',
 
   // Put the exported PDF in /public and set this to its path, e.g. '/Jonnada_Satish_Resume.pdf'.
   // While empty, the resume button opens a pre-filled email request instead of a download.
-  resumeUrl: '',
+  resumeUrl: '/jsatish_resume.pdf',
 
   seo: {
     title: 'Jonnada Satish | Full-Stack Software Engineer (Backend & AI Engineering)',
