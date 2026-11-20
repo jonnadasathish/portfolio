@@ -1,0 +1,77 @@
+/* Design tokens. Dark is the primary experience; light mirrors it. */
+:root,
+[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #07080a;
+  --bg-raised: #0b0c10;
+  --surface: #0f1115;
+  --surface-2: #15171d;
+  --surface-3: #1c1f27;
+  --border: rgb(255 255 255 / 0.075);
+  --border-strong: rgb(255 255 255 / 0.13);
+  --text: #f5f6f8;
+  --text-muted: #a3a9b6;
+  --text-faint: #7b818d;
+  --accent: #9d9bff;
+  --accent-strong: #b9b8ff;
+  --accent-soft: rgb(129 127 255 / 0.12);
+  --accent-line: rgb(157 155 255 / 0.38);
+  --grad: linear-gradient(100deg, #a5b4fc 0%, #c4b5fd 45%, #f0abfc 100%);
+  --grad-border: linear-gradient(140deg, rgb(165 180 252 / 0.55), rgb(255 255 255 / 0.06) 40%, rgb(240 171 252 / 0.35));
+  --btn-primary-bg: #f5f6f8;
+  --btn-primary-ink: #07080a;
+  --ok: #4ade80;
+  --ok-soft: rgb(74 222 128 / 0.1);
+  --info: #7cb4ff;
+  --info-soft: rgb(124 180 255 / 0.1);
+  --highlight: inset 0 1px 0 rgb(255 255 255 / 0.05);
+  --shadow: inset 0 1px 0 rgb(255 255 255 / 0.05), 0 30px 60px -30px rgb(0 0 0 / 0.75);
+  --shadow-lg: inset 0 1px 0 rgb(255 255 255 / 0.06), 0 40px 120px -40px rgb(79 70 229 / 0.35), 0 30px 60px -30px rgb(0 0 0 / 0.8);
+  --glow: rgb(99 102 241 / 0.24);
+  --glow-2: rgb(192 132 252 / 0.14);
+  --grid-line: rgb(255 255 255 / 0.035);
+}
+
+[data-theme='light'] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --bg-raised: #fafafb;
+  --surface: #ffffff;
+  --surface-2: #f6f7f9;
+  --surface-3: #eef0f4;
+  --border: rgb(15 23 42 / 0.08);
+  --border-strong: rgb(15 23 42 / 0.15);
+  --text: #0b0d12;
+  --text-muted: #4a5161;
+  --text-faint: #697080;
+  --accent: #4f46e5;
+  --accent-strong: #4338ca;
+  --accent-soft: rgb(79 70 229 / 0.07);
+  --accent-line: rgb(79 70 229 / 0.32);
+  --grad: linear-gradient(100deg, #4f46e5 0%, #7c3aed 50%, #c026d3 100%);
+  --grad-border: linear-gradient(140deg, rgb(79 70 229 / 0.45), rgb(15 23 42 / 0.06) 40%, rgb(192 38 211 / 0.3));
+  --btn-primary-bg: #0b0d12;
+  --btn-primary-ink: #ffffff;
+  --ok: #15803d;
+  --ok-soft: rgb(21 128 61 / 0.08);
+  --info: #1d4ed8;
+  --info-soft: rgb(29 78 216 / 0.07);
+  --highlight: inset 0 1px 0 rgb(255 255 255 / 0.8);
+  --shadow: 0 1px 2px rgb(16 24 40 / 0.04), 0 12px 32px -14px rgb(16 24 40 / 0.14);
+  --shadow-lg: 0 1px 2px rgb(16 24 40 / 0.05), 0 40px 100px -40px rgb(79 70 229 / 0.3), 0 24px 48px -24px rgb(16 24 40 / 0.18);
+  --glow: rgb(99 102 241 / 0.16);
+  --glow-2: rgb(192 132 252 / 0.12);
+  --grid-line: rgb(15 23 42 / 0.045);
+}
+
+:root {
+  --font-sans: 'Geist Variable', 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'Geist Mono Variable', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 20px;
+  --container: 1180px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --header-h: 76px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
